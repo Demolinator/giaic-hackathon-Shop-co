@@ -1,6 +1,16 @@
 import React from "react";
 
-const ProductCard = ({
+// Define the types for the props
+interface ProductCardProps {
+  image: string;
+  name: string;
+  price: number;
+  originalPrice?: number; // Optional, since it might not be provided
+  discount?: number; // Optional, since it might not be provided
+  rating: number;
+}
+
+const ProductCard: React.FC<ProductCardProps> = ({
   image,
   name,
   price,
