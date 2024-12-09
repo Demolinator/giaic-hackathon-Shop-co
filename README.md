@@ -35,5 +35,5 @@ Follow these steps to run the project locally:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Demolinator/giaic-hackathon-Shop-co.git
+   cd giaic-hackathon-Shop-co
